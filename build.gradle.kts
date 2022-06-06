@@ -32,22 +32,22 @@ tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {
 }
 
 repositories {
-    maven("https://papermc.io/repo/repository/maven-public/")
+//    maven("https://papermc.io/repo/repository/maven-public/")
     mavenLocal()
     mavenCentral()
-    maven { url = uri("https://repo.dmulloy2.net/repository/public/") }
-    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
-    maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") }
-    maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/public/") }
-    maven { url = uri("https://jitpack.io") }
-    maven { url = uri("https://libraries.minecraft.net/") }
-    maven { url = uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/") }
+//    maven { url = uri("https://repo.dmulloy2.net/repository/public/") }
+//    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
+//    maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") }
+//    maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/public/") }
+//    maven { url = uri("https://jitpack.io") }
+//    maven { url = uri("https://libraries.minecraft.net/") }
+//    maven { url = uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/") }
 
 }
 
 dependencies {
 //    compileOnly ("com.mojang:authlib:1.5.21")
 //    compileOnly ("org.spigotmc:spigot:1.18-R0.1-SNAPSHOT")
-    compileOnly ("org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT")
+//    compileOnly ("org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT")
     compileOnly ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version")
 }
